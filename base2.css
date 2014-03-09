@@ -19,25 +19,38 @@ ul.navbar {
   position: absolute;
   top: 7em;
   left: 1em;
-  width: 9em }
+  width: 9em
+}
 h1 {
   font-family: Helvetica, Geneva, Arial,
-        SunSans-Regular, sans-serif }
+        SunSans-Regular, sans-serif
+
+}
 ul.navbar li {
   background:  	#000000 ;
   margin: 0.5em 0;
   padding: 0.3em;
-  border-right: 1em solid #cd402b  }
+  border-right: 1em solid #cd402b 
+
+}
 ul.navbar a {
-  text-decoration: none }
+  text-decoration: none 
+
+}
 a:link {
-  color: #b8b8b8  }
+  color: #b8b8b8 
+
+}
 a:visited {
-  color: #b8b8b8  }
+  color: #b8b8b8  
+
+}
 address {
   margin-top: 1em;
   padding-top: 1em;
-  border-top: thin dotted }
+  border-top: thin dotted 
+
+}
   
  input
 {
