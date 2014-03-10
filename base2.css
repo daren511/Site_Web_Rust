@@ -1,76 +1,83 @@
 body {
 	padding-left: 11em;
 	padding-Top: 5em;
-	font-family: Georgia, "Times New Roman",
-        Times, serif;
-	color:  	#b8b8b8   ;
-
-	background-color:  	 	#1f2020   ;
-	background-position: right bottom ;
-	background-repeat:no-repeat ;
-	background-attachment:fixed
-
+	font-family: Georgia, "Times New Roman",Times, serif;
+    color:#b8b8b8   ;
+	background-color:#1f2020;
+  /*background-position:center ;
+	background-repeat:no-repeat; */
+	background-attachment:fixed; 
+    background-image:url("BG2.jpg");
+        margin:0 auto;
+    width:1000px;
   }
+div{
+    margin:0 auto;
+    width:1000px;
+}
+/*  Enlerver pour un test - Ne pas supprimer!   */ 
 ul.navbar {
-
-  list-style-type: none;
+ list-style-type: none;  
+  /* 
   padding: 0;
   margin: 0;
-  position: absolute;
-  top: 7em;
-  left: 1em;
+  position: absolute; 
+  top: 6.2em;
+  left: 1.6em;
   width: 9em
+      */
 }
+ 
 h1 {
   font-family: Helvetica, Geneva, Arial,
-        SunSans-Regular, sans-serif
+        SunSans-Regular, sans-serif;
+}
+h2{
+    text-align:center
+}
+
+p{
+text-align:center
 
 }
+
 ul.navbar li {
-  background:  	#000000 ;
+  background:  	#000000;
   margin: 0.5em 0;
   padding: 0.3em;
-  border-right: 1em solid #cd402b 
-
+  border-right: 1em solid #cd402b;
+  width: 153px;
 }
 ul.navbar a {
-  text-decoration: none 
+  text-decoration:none ;
 
 }
 a:link {
-  color: #b8b8b8 
+  color: #b8b8b8; 
 
 }
 a:visited {
-  color: #b8b8b8  
+  color: #b8b8b8;
 
 }
 address {
   margin-top: 1em;
   padding-top: 1em;
-  border-top: thin dotted 
+  border-top: thin dotted;
 
 }
   
- input
-{
-color: #781351;
-background: #fee3ad;
-border: 1px solid #781351
-}
-
-submit input
-{
-color: #000;
-background: #ffa20f;
-border: 2px outset #d7b9c9
-}
-
-
 table
 {
 border:3px solid #781351;
-/background-image:url(super.jpg);
-_background: none transparent;
-_filter: progid:DXImageTransform.Microsoft.Gradient(startcolorstr="#aaFFFFFF",endcolorstr="#aaFFFFFF");
+background: none transparent;
 }
+
+ul.body2
+{
+border:3px solid #1f2020;
+background-image:url("bg.jpg");
+background: none transparent;
+width:75.4%
+}
+
